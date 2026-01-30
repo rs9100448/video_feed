@@ -1,0 +1,32 @@
+//
+//  CustomVideoPlayer.swift
+//  Video_Feed
+//
+//  Created by Ravindra Kumar Sonkar on 27/01/26.
+//
+
+import SwiftUI
+import AVKit
+
+struct CustomVideoPlayer: UIViewControllerRepresentable {
+    var player: AVPlayer
+    
+    func makeUIViewController(context: Context) -> AVPlayerViewController {
+        let controller = AVPlayerViewController()
+        controller.player = player
+        controller.showsPlaybackControls = false
+        controller.exitsFullScreenWhenPlaybackEnds = true
+        controller.allowsPictureInPicturePlayback = true
+        controller.videoGravity = .resizeAspectFill
+        return controller
+    }
+    
+    func updateUIViewController(_ uiViewController: AVPlayerViewController, context: Context) {
+        
+    }
+}
+
+
+
+    
+   

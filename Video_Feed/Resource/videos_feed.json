@@ -1,0 +1,1112 @@
+{
+    "videos": [
+        {
+          "id": "video_1",
+          "title": "Wireless Headphones Unboxing",
+          "description": "Check out these premium noise-canceling headphones",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=1",
+          "duration": 45,
+          "views": 12500,
+          "likes": 890,
+          "createdAt": "2026-01-20T10:30:00Z",
+          "products": [
+            {
+              "id": "prod_1",
+              "name": "Premium Wireless Headphones",
+              "brand": "AudioMax",
+              "price": 129.99,
+              "originalPrice": 179.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=101",
+              "rating": 4.5,
+              "reviewCount": 234,
+              "inStock": true,
+              "category": "Electronics",
+              "description": "Premium noise-canceling wireless headphones with 30-hour battery life and superior sound quality.",
+              "specifications": [
+                "Battery Life: 30 hours",
+                "Bluetooth 5.0",
+                "Active Noise Cancellation",
+                "Foldable Design"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "video_2",
+          "title": "Smart Watch Features Demo",
+          "description": "Everything you need to know about the latest smartwatch",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=2",
+          "duration": 60,
+          "views": 25300,
+          "likes": 1820,
+          "createdAt": "2026-01-19T14:20:00Z",
+          "products": [
+            {
+              "id": "prod_2",
+              "name": "FitTrack Pro Smartwatch",
+              "brand": "FitTrack",
+              "price": 299.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=102",
+              "rating": 4.7,
+              "reviewCount": 567,
+              "inStock": true,
+              "category": "Wearables",
+              "description": "Advanced fitness tracking with heart rate monitoring, GPS, and water resistance up to 50m.",
+              "specifications": [
+                "Heart Rate Monitor",
+                "GPS Tracking",
+                "Water Resistant (50m)",
+                "7-day battery life"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "video_3",
+          "title": "Summer Fashion Haul",
+          "description": "Showing off my latest summer outfits",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=3",
+          "duration": 35,
+          "views": 45200,
+          "likes": 3450,
+          "createdAt": "2026-01-18T09:15:00Z",
+          "products": [
+            {
+              "id": "prod_3",
+              "name": "Floral Summer Dress",
+              "brand": "StyleCo",
+              "price": 49.99,
+              "originalPrice": 79.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=103",
+              "rating": 4.3,
+              "reviewCount": 189,
+              "inStock": true,
+              "category": "Fashion",
+              "description": "Lightweight floral print dress perfect for summer days.",
+              "specifications": ["Material: Cotton blend", "Available sizes: XS-XL", "Machine washable"]
+            },
+            {
+              "id": "prod_4",
+              "name": "Leather Crossbody Bag",
+              "brand": "LuxeBags",
+              "price": 89.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=104",
+              "rating": 4.6,
+              "reviewCount": 312,
+              "inStock": true,
+              "category": "Accessories",
+              "description": "Genuine leather crossbody bag with adjustable strap.",
+              "specifications": ["Genuine leather", "Multiple compartments", "Dimensions: 9x7x3 inches"]
+            }
+          ]
+        },
+        {
+          "id": "video_4",
+          "title": "Coffee Maker Review",
+          "description": "Testing the best coffee makers under $100",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=4",
+          "duration": 50,
+          "views": 18700,
+          "likes": 1240,
+          "createdAt": "2026-01-17T11:45:00Z",
+          "products": [
+            {
+              "id": "prod_5",
+              "name": "BrewMaster Pro Coffee Maker",
+              "brand": "BrewMaster",
+              "price": 79.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=105",
+              "rating": 4.4,
+              "reviewCount": 445,
+              "inStock": true,
+              "category": "Home & Kitchen",
+              "description": "Programmable coffee maker with thermal carafe and brew strength control.",
+              "specifications": ["12-cup capacity", "Programmable timer", "Thermal carafe"]
+            }
+          ]
+        },
+        {
+          "id": "video_5",
+          "title": "Gaming Setup Tour 2026",
+          "description": "Complete tour of my updated gaming battlestation",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=5",
+          "duration": 70,
+          "views": 67800,
+          "likes": 5430,
+          "createdAt": "2026-01-16T16:30:00Z",
+          "products": [
+            {
+              "id": "prod_6",
+              "name": "RGB Gaming Keyboard",
+              "brand": "GameGear",
+              "price": 149.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=106",
+              "rating": 4.8,
+              "reviewCount": 789,
+              "inStock": true,
+              "category": "Gaming",
+              "description": "Mechanical gaming keyboard with customizable RGB lighting.",
+              "specifications": ["Mechanical switches", "RGB backlighting", "Programmable macro keys"]
+            },
+            {
+              "id": "prod_7",
+              "name": "Gaming Mouse Pro",
+              "brand": "GameGear",
+              "price": 69.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=107",
+              "rating": 4.7,
+              "reviewCount": 523,
+              "inStock": true,
+              "category": "Gaming",
+              "description": "High-precision gaming mouse with 16000 DPI sensor.",
+              "specifications": ["16000 DPI sensor", "8 programmable buttons", "Ergonomic design"]
+            }
+          ]
+        },
+        {
+          "id": "video_6",
+          "title": "Yoga Mat Comparison",
+          "description": "Finding the perfect yoga mat for your practice",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=6",
+          "duration": 40,
+          "views": 31200,
+          "likes": 2340,
+          "createdAt": "2026-01-15T08:00:00Z",
+          "products": [
+            {
+              "id": "prod_8",
+              "name": "EcoYoga Premium Mat",
+              "brand": "EcoYoga",
+              "price": 59.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=108",
+              "rating": 4.6,
+              "reviewCount": 678,
+              "inStock": true,
+              "category": "Fitness",
+              "description": "Eco-friendly yoga mat with superior grip and cushioning.",
+              "specifications": ["6mm thickness", "Non-slip surface", "Eco-friendly materials"]
+            }
+          ]
+        },
+        {
+          "id": "video_7",
+          "title": "Air Fryer Recipes",
+          "description": "5 amazing recipes you can make in an air fryer",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=7",
+          "duration": 55,
+          "views": 89400,
+          "likes": 6780,
+          "createdAt": "2026-01-14T12:30:00Z",
+          "products": [
+            {
+              "id": "prod_9",
+              "name": "Digital Air Fryer XL",
+              "brand": "CookPro",
+              "price": 119.99,
+              "originalPrice": 159.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=109",
+              "rating": 4.5,
+              "reviewCount": 1234,
+              "inStock": true,
+              "category": "Home & Kitchen",
+              "description": "Large capacity air fryer with digital controls.",
+              "specifications": ["5.8 quart capacity", "8 preset programs", "Digital touchscreen"]
+            }
+          ]
+        },
+        {
+          "id": "video_8",
+          "title": "Running Shoes Comparison",
+          "description": "Testing the top 3 running shoes of 2026",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=8",
+          "duration": 48,
+          "views": 54300,
+          "likes": 4120,
+          "createdAt": "2026-01-13T07:15:00Z",
+          "products": [
+            {
+              "id": "prod_10",
+              "name": "CloudRun Pro Shoes",
+              "brand": "RunFast",
+              "price": 139.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=110",
+              "rating": 4.7,
+              "reviewCount": 892,
+              "inStock": true,
+              "category": "Sports",
+              "description": "Lightweight running shoes with responsive cushioning.",
+              "specifications": ["Breathable mesh upper", "Responsive cushioning", "Lightweight design"]
+            }
+          ]
+        },
+        {
+          "id": "video_9",
+          "title": "Home Office Setup Ideas",
+          "description": "Creating the perfect work from home space",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=9",
+          "duration": 65,
+          "views": 42100,
+          "likes": 3210,
+          "createdAt": "2026-01-12T13:45:00Z",
+          "products": [
+            {
+              "id": "prod_11",
+              "name": "Ergonomic Office Chair",
+              "brand": "ComfortSeating",
+              "price": 249.99,
+              "originalPrice": 349.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=111",
+              "rating": 4.6,
+              "reviewCount": 567,
+              "inStock": true,
+              "category": "Furniture",
+              "description": "Premium ergonomic office chair with lumbar support.",
+              "specifications": ["Adjustable lumbar support", "Height adjustable", "Breathable mesh back"]
+            },
+            {
+              "id": "prod_12",
+              "name": "LED Desk Lamp",
+              "brand": "BrightWork",
+              "price": 45.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=112",
+              "rating": 4.4,
+              "reviewCount": 234,
+              "inStock": true,
+              "category": "Home & Office",
+              "description": "Adjustable LED desk lamp with multiple brightness levels.",
+              "specifications": ["Adjustable brightness", "Multiple color temps", "USB charging port"]
+            }
+          ]
+        },
+        {
+          "id": "video_10",
+          "title": "Skincare Routine Essentials",
+          "description": "My daily skincare routine with product recommendations",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=10",
+          "duration": 42,
+          "views": 76500,
+          "likes": 5890,
+          "createdAt": "2026-01-11T10:20:00Z",
+          "products": [
+            {
+              "id": "prod_13",
+              "name": "Vitamin C Serum",
+              "brand": "GlowSkin",
+              "price": 34.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=113",
+              "rating": 4.8,
+              "reviewCount": 1456,
+              "inStock": true,
+              "category": "Beauty",
+              "description": "Brightening vitamin C serum with hyaluronic acid.",
+              "specifications": ["20% Vitamin C", "Hyaluronic acid", "Paraben-free"]
+            },
+            {
+              "id": "prod_14",
+              "name": "Hydrating Face Moisturizer",
+              "brand": "GlowSkin",
+              "price": 28.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=114",
+              "rating": 4.7,
+              "reviewCount": 987,
+              "inStock": true,
+              "category": "Beauty",
+              "description": "Lightweight, non-greasy moisturizer.",
+              "specifications": ["Oil-free formula", "SPF 15", "Fragrance-free"]
+            }
+          ]
+        },
+        {
+          "id": "video_11",
+          "title": "Wireless Earbuds Battle",
+          "description": "Testing 4 popular wireless earbuds under $100",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=11",
+          "duration": 58,
+          "views": 93200,
+          "likes": 7120,
+          "createdAt": "2026-01-10T15:30:00Z",
+          "products": [
+            {
+              "id": "prod_15",
+              "name": "TrueSound Pro Earbuds",
+              "brand": "TrueSound",
+              "price": 89.99,
+              "originalPrice": 129.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=115",
+              "rating": 4.5,
+              "reviewCount": 2345,
+              "inStock": true,
+              "category": "Electronics",
+              "description": "Premium wireless earbuds with active noise cancellation.",
+              "specifications": ["Active Noise Cancellation", "24-hour battery", "IPX5 water resistant"]
+            }
+          ]
+        },
+        {
+          "id": "video_12",
+          "title": "Plant Care Tips for Beginners",
+          "description": "Essential tips for keeping your houseplants alive",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=12",
+          "duration": 38,
+          "views": 28900,
+          "likes": 2140,
+          "createdAt": "2026-01-09T09:00:00Z",
+          "products": [
+            {
+              "id": "prod_16",
+              "name": "Self-Watering Planter Set",
+              "brand": "GreenThumb",
+              "price": 39.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=116",
+              "rating": 4.6,
+              "reviewCount": 456,
+              "inStock": true,
+              "category": "Home & Garden",
+              "description": "Set of 3 self-watering planters perfect for indoor plants.",
+              "specifications": ["Set of 3 planters", "Self-watering system", "BPA-free plastic"]
+            }
+          ]
+        },
+        {
+          "id": "video_13",
+          "title": "Backpack Review: Best for Travel",
+          "description": "Finding the perfect travel backpack",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=13",
+          "duration": 44,
+          "views": 36700,
+          "likes": 2890,
+          "createdAt": "2026-01-08T11:15:00Z",
+          "products": [
+            {
+              "id": "prod_17",
+              "name": "TravelPro Laptop Backpack",
+              "brand": "TravelPro",
+              "price": 79.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=117",
+              "rating": 4.7,
+              "reviewCount": 678,
+              "inStock": true,
+              "category": "Travel",
+              "description": "Durable travel backpack with laptop compartment.",
+              "specifications": ["Fits 15.6\" laptop", "USB charging port", "Water-resistant"]
+            }
+          ]
+        },
+        {
+          "id": "video_14",
+          "title": "Blender Showdown 2026",
+          "description": "Which blender is worth your money?",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=14",
+          "duration": 52,
+          "views": 51200,
+          "likes": 3890,
+          "createdAt": "2026-01-07T14:45:00Z",
+          "products": [
+            {
+              "id": "prod_18",
+              "name": "PowerBlend 3000",
+              "brand": "BlendMaster",
+              "price": 149.99,
+              "originalPrice": 199.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=118",
+              "rating": 4.8,
+              "reviewCount": 1123,
+              "inStock": true,
+              "category": "Home & Kitchen",
+              "description": "High-powered blender with 1500W motor.",
+              "specifications": ["1500W motor", "10 speed settings", "64 oz pitcher"]
+            }
+          ]
+        },
+        {
+          "id": "video_15",
+          "title": "Phone Accessories You Need",
+          "description": "Top 5 must-have accessories for your smartphone",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=15",
+          "duration": 46,
+          "views": 68400,
+          "likes": 5230,
+          "createdAt": "2026-01-06T16:00:00Z",
+          "products": [
+            {
+              "id": "prod_19",
+              "name": "Wireless Charging Pad",
+              "brand": "ChargeFast",
+              "price": 29.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=119",
+              "rating": 4.5,
+              "reviewCount": 789,
+              "inStock": true,
+              "category": "Electronics",
+              "description": "Fast wireless charging pad compatible with all Qi-enabled devices.",
+              "specifications": ["15W fast charging", "Qi-certified", "LED indicator"]
+            },
+            {
+                "id": "prod_20",
+                "name": "Screen Protector Kit",
+                "brand": "GuardTech",
+                "price": 19.99,
+                "currency": "USD",
+                "imageUrl": "https://picsum.photos/300/300?random=120",
+                "rating": 4.4,
+                "reviewCount": 1234,
+                "inStock": true,
+                "category": "Electronics",
+                "description": "Tempered glass screen protector with easy installation kit.",
+                "specifications": ["9H hardness", "Anti-fingerprint", "2-pack included"]
+            }
+          ]
+        },
+        {
+          "id": "video_16",
+          "title": "Winter Jacket Collection",
+          "description": "Stay warm and stylish this winter",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=16",
+          "duration": 41,
+          "views": 39800,
+          "likes": 3120,
+          "createdAt": "2026-01-05T10:30:00Z",
+          "products": [
+            {
+              "id": "prod_21",
+              "name": "Insulated Puffer Jacket",
+              "brand": "WarmWear",
+              "price": 129.99,
+              "originalPrice": 179.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=121",
+              "rating": 4.6,
+              "reviewCount": 567,
+              "inStock": true,
+              "category": "Fashion",
+              "description": "Lightweight yet warm puffer jacket.",
+              "specifications": ["Water-resistant", "Insulated filling", "Multiple pockets"]
+            }
+          ]
+        },
+        {
+          "id": "video_17",
+          "title": "Portable Speaker Comparison",
+          "description": "Best Bluetooth speakers for outdoor use",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=17",
+          "duration": 49,
+          "views": 44600,
+          "likes": 3450,
+          "createdAt": "2026-01-04T13:20:00Z",
+          "products": [
+            {
+              "id": "prod_22",
+              "name": "WaterProof Bluetooth Speaker",
+              "brand": "SoundWave",
+              "price": 79.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=122",
+              "rating": 4.7,
+              "reviewCount": 892,
+              "inStock": true,
+              "category": "Electronics",
+              "description": "Rugged waterproof speaker with 20-hour battery life.",
+              "specifications": ["IPX7 waterproof", "20-hour battery", "360-degree sound"]
+            }
+          ]
+        },
+        {
+          "id": "video_18",
+          "title": "Tablet vs Laptop: Which to Buy?",
+          "description": "Helping you decide between a tablet and laptop",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=18",
+          "duration": 53,
+          "views": 62300,
+          "likes": 4890,
+          "createdAt": "2026-01-03T09:30:00Z",
+          "products": [
+            {
+              "id": "prod_23",
+              "name": "Pro Tablet 12.9\"",
+              "brand": "TechTab",
+              "price": 799.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=123",
+              "rating": 4.8,
+              "reviewCount": 1567,
+              "inStock": true,
+              "category": "Electronics",
+              "description": "Professional-grade tablet with stunning display and powerful performance.",
+              "specifications": ["12.9\" display", "256GB storage", "8GB RAM", "All-day battery"]
+            }
+          ]
+        },
+        {
+          "id": "video_19",
+          "title": "Kitchen Gadgets That Actually Work",
+          "description": "Testing viral kitchen gadgets from social media",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=19",
+          "duration": 47,
+          "views": 71200,
+          "likes": 5560,
+          "createdAt": "2026-01-02T11:00:00Z",
+          "products": [
+            {
+              "id": "prod_24",
+              "name": "Multi-Function Vegetable Chopper",
+              "brand": "ChopMaster",
+              "price": 34.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=124",
+              "rating": 4.5,
+              "reviewCount": 678,
+              "inStock": true,
+              "category": "Home & Kitchen",
+              "description": "Versatile vegetable chopper with multiple blade options.",
+              "specifications": ["5 blade options", "Easy to clean", "Compact storage"]
+            }
+          ]
+        },
+        {
+          "id": "video_20",
+          "title": "Best Budget Sneakers 2026",
+          "description": "Stylish sneakers that won't break the bank",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=20",
+          "duration": 39,
+          "views": 48900,
+          "likes": 3780,
+          "createdAt": "2026-01-01T14:30:00Z",
+          "products": [
+            {
+              "id": "prod_25",
+              "name": "Urban Street Sneakers",
+              "brand": "StreetStyle",
+              "price": 64.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=125",
+              "rating": 4.4,
+              "reviewCount": 892,
+              "inStock": true,
+              "category": "Fashion",
+              "description": "Comfortable everyday sneakers with modern design.",
+              "specifications": ["Canvas and synthetic upper", "Cushioned insole", "Multiple colors"]
+            }
+          ]
+        },
+        {
+          "id": "video_21",
+          "title": "Electric Toothbrush Revolution",
+          "description": "Why you need to upgrade your oral care routine",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=21",
+          "duration": 36,
+          "views": 33400,
+          "likes": 2560,
+          "createdAt": "2025-12-31T08:45:00Z",
+          "products": [
+            {
+              "id": "prod_26",
+              "name": "SmilePro Electric Toothbrush",
+              "brand": "SmilePro",
+              "price": 89.99,
+              "originalPrice": 129.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=126",
+              "rating": 4.7,
+              "reviewCount": 1234,
+              "inStock": true,
+              "category": "Health & Personal Care",
+              "description": "Advanced electric toothbrush with pressure sensor and multiple modes.",
+              "specifications": ["5 cleaning modes", "2-week battery life", "Pressure sensor"]
+            }
+          ]
+        },
+        {
+          "id": "video_22",
+          "title": "Camera Lens Guide for Beginners",
+          "description": "Understanding different camera lenses",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=22",
+          "duration": 61,
+          "views": 41800,
+          "likes": 3340,
+          "createdAt": "2025-12-30T16:15:00Z",
+          "products": [
+            {
+              "id": "prod_27",
+              "name": "50mm Prime Lens f/1.8",
+              "brand": "PhotoPro",
+              "price": 199.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=127",
+              "rating": 4.8,
+              "reviewCount": 567,
+              "inStock": true,
+              "category": "Photography",
+              "description": "Fast prime lens perfect for portraits and low light photography.",
+              "specifications": ["50mm focal length", "f/1.8 aperture", "Auto-focus"]
+            }
+          ]
+        },
+        {
+          "id": "video_23",
+          "title": "Minimalist Wallet Review",
+          "description": "Ditch the bulky wallet for these sleek options",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=23",
+          "duration": 34,
+          "views": 26700,
+          "likes": 2010,
+          "createdAt": "2025-12-29T12:00:00Z",
+          "products": [
+            {
+              "id": "prod_28",
+              "name": "Carbon Fiber Slim Wallet",
+              "brand": "SlimCarry",
+              "price": 39.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=128",
+              "rating": 4.6,
+              "reviewCount": 789,
+              "inStock": true,
+              "category": "Accessories",
+              "description": "Ultra-slim wallet with RFID protection and money clip.",
+              "specifications": ["RFID blocking", "Holds 8-12 cards", "Money clip included"]
+            }
+          ]
+        },
+        {
+          "id": "video_24",
+          "title": "Standing Desk Setup",
+          "description": "Building the perfect ergonomic workspace",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=24",
+          "duration": 56,
+          "views": 38200,
+          "likes": 2940,
+          "createdAt": "2025-12-28T10:20:00Z",
+          "products": [
+            {
+              "id": "prod_29",
+              "name": "Electric Standing Desk",
+              "brand": "ErgoDesk",
+              "price": 399.99,
+              "originalPrice": 549.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=129",
+              "rating": 4.7,
+              "reviewCount": 1456,
+              "inStock": true,
+              "category": "Furniture",
+              "description": "Programmable electric standing desk with memory presets.",
+              "specifications": ["Electric height adjustment", "4 memory presets", "60\" wide desktop"]
+            }
+          ]
+        },
+        {
+          "id": "video_25",
+          "title": "Protein Shaker Bottle Comparison",
+          "description": "Finding the best shaker bottle for your workouts",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "thumbnailUrl": "https://picsum.photos/400/600?random=25",
+          "duration": 31,
+          "views": 19500,
+          "likes": 1450,
+          "createdAt": "2025-12-27T07:30:00Z",
+          "products": [
+            {
+              "id": "prod_30",
+              "name": "BlenderBottle Pro Series",
+              "brand": "BlenderBottle",
+              "price": 24.99,
+              "currency": "USD",
+              "imageUrl": "https://picsum.photos/300/300?random=130",
+              "rating": 4.5,
+              "reviewCount": 2345,
+              "inStock": true,
+              "category": "Fitness",
+              "description": "Leak-proof shaker bottle with mixing system.",
+              "specifications": ["28 oz capacity", "BPA-free", "Dishwasher safe", "Wire whisk ball"]
+            }
+          ]
+        },
+        {
+            "id": "video_26",
+            "title": "Running Shoes Comparison",
+            "description": "Testing the top 3 running shoes of 2026",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "thumbnailUrl": "https://picsum.photos/400/600?random=8",
+            "duration": 48,
+            "views": 54300,
+            "likes": 4120,
+            "createdAt": "2026-01-13T07:15:00Z",
+            "products": [
+                {
+                    "id": "prod_10",
+                    "name": "CloudRun Pro Shoes",
+                    "brand": "RunFast",
+                    "price": 139.99,
+                    "currency": "USD",
+                    "imageUrl": "https://picsum.photos/300/300?random=110",
+                    "rating": 4.7,
+                    "reviewCount": 892,
+                    "inStock": true,
+                    "category": "Sports",
+                    "description": "Lightweight running shoes with responsive cushioning.",
+                    "specifications": ["Breathable mesh upper", "Responsive cushioning", "Lightweight design"]
+                }
+            ]
+        },
+        {
+            "id": "video_27",
+            "title": "Home Office Setup Ideas",
+            "description": "Creating the perfect work from home space",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "thumbnailUrl": "https://picsum.photos/400/600?random=9",
+            "duration": 65,
+            "views": 42100,
+            "likes": 3210,
+            "createdAt": "2026-01-12T13:45:00Z",
+            "products": [
+                {
+                    "id": "prod_11",
+                    "name": "Ergonomic Office Chair",
+                    "brand": "ComfortSeating",
+                    "price": 249.99,
+                    "originalPrice": 349.99,
+                    "currency": "USD",
+                    "imageUrl": "https://picsum.photos/300/300?random=111",
+                    "rating": 4.6,
+                    "reviewCount": 567,
+                    "inStock": true,
+                    "category": "Furniture",
+                    "description": "Premium ergonomic office chair with lumbar support.",
+                    "specifications": ["Adjustable lumbar support", "Height adjustable", "Breathable mesh back"]
+                },
+                {
+                    "id": "prod_12",
+                    "name": "LED Desk Lamp",
+                    "brand": "BrightWork",
+                    "price": 45.99,
+                    "currency": "USD",
+                    "imageUrl": "https://picsum.photos/300/300?random=112",
+                    "rating": 4.4,
+                    "reviewCount": 234,
+                    "inStock": true,
+                    "category": "Home & Office",
+                    "description": "Adjustable LED desk lamp with multiple brightness levels.",
+                    "specifications": ["Adjustable brightness", "Multiple color temps", "USB charging port"]
+                }
+            ]
+        },
+        {
+            "id": "video_28",
+            "title": "Skincare Routine Essentials",
+            "description": "My daily skincare routine with product recommendations",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "thumbnailUrl": "https://picsum.photos/400/600?random=10",
+            "duration": 42,
+            "views": 76500,
+            "likes": 5890,
+            "createdAt": "2026-01-11T10:20:00Z",
+            "products": [
+                {
+                    "id": "prod_13",
+                    "name": "Vitamin C Serum",
+                    "brand": "GlowSkin",
+                    "price": 34.99,
+                    "currency": "USD",
+                    "imageUrl": "https://picsum.photos/300/300?random=113",
+                    "rating": 4.8,
+                    "reviewCount": 1456,
+                    "inStock": true,
+                    "category": "Beauty",
+                    "description": "Brightening vitamin C serum with hyaluronic acid.",
+                    "specifications": ["20% Vitamin C", "Hyaluronic acid", "Paraben-free"]
+                },
+                {
+                    "id": "prod_14",
+                    "name": "Hydrating Face Moisturizer",
+                    "brand": "GlowSkin",
+                    "price": 28.99,
+                    "currency": "USD",
+                    "imageUrl": "https://picsum.photos/300/300?random=114",
+                    "rating": 4.7,
+                    "reviewCount": 987,
+                    "inStock": true,
+                    "category": "Beauty",
+                    "description": "Lightweight, non-greasy moisturizer.",
+                    "specifications": ["Oil-free formula", "SPF 15", "Fragrance-free"]
+                }
+            ]
+        },
+        {
+            "id": "video_29",
+            "title": "Wireless Earbuds Battle",
+            "description": "Testing 4 popular wireless earbuds under $100",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "thumbnailUrl": "https://picsum.photos/400/600?random=11",
+            "duration": 58,
+            "views": 93200,
+            "likes": 7120,
+            "createdAt": "2026-01-10T15:30:00Z",
+            "products": [
+                {
+                    "id": "prod_15",
+                    "name": "TrueSound Pro Earbuds",
+                    "brand": "TrueSound",
+                    "price": 89.99,
+                    "originalPrice": 129.99,
+                    "currency": "USD",
+                    "imageUrl": "https://picsum.photos/300/300?random=115",
+                    "rating": 4.5,
+                    "reviewCount": 2345,
+                    "inStock": true,
+                    "category": "Electronics",
+                    "description": "Premium wireless earbuds with active noise cancellation.",
+                    "specifications": ["Active Noise Cancellation", "24-hour battery", "IPX5 water resistant"]
+                }
+            ]
+        },
+        {
+            "id": "video_30",
+            "title": "Plant Care Tips for Beginners",
+            "description": "Essential tips for keeping your houseplants alive",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "thumbnailUrl": "https://picsum.photos/400/600?random=12",
+            "duration": 38,
+            "views": 28900,
+            "likes": 2140,
+            "createdAt": "2026-01-09T09:00:00Z",
+            "products": [
+                {
+                    "id": "prod_16",
+                    "name": "Self-Watering Planter Set",
+                    "brand": "GreenThumb",
+                    "price": 39.99,
+                    "currency": "USD",
+                    "imageUrl": "https://picsum.photos/300/300?random=116",
+                    "rating": 4.6,
+                    "reviewCount": 456,
+                    "inStock": true,
+                    "category": "Home & Garden",
+                    "description": "Set of 3 self-watering planters perfect for indoor plants.",
+                    "specifications": ["Set of 3 planters", "Self-watering system", "BPA-free plastic"]
+                }
+            ]
+        },
+        {
+            "id": "video_31",
+            "title": "Backpack Review: Best for Travel",
+            "description": "Finding the perfect travel backpack",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "thumbnailUrl": "https://picsum.photos/400/600?random=13",
+            "duration": 44,
+            "views": 36700,
+            "likes": 2890,
+            "createdAt": "2026-01-08T11:15:00Z",
+            "products": [
+                {
+                    "id": "prod_17",
+                    "name": "TravelPro Laptop Backpack",
+                    "brand": "TravelPro",
+                    "price": 79.99,
+                    "currency": "USD",
+                    "imageUrl": "https://picsum.photos/300/300?random=117",
+                    "rating": 4.7,
+                    "reviewCount": 678,
+                    "inStock": true,
+                    "category": "Travel",
+                    "description": "Durable travel backpack with laptop compartment.",
+                    "specifications": ["Fits 15.6\" laptop", "USB charging port", "Water-resistant"]
+                }
+            ]
+        },
+        {
+            "id": "video_32",
+            "title": "Blender Showdown 2026",
+            "description": "Which blender is worth your money?",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "thumbnailUrl": "https://picsum.photos/400/600?random=14",
+            "duration": 52,
+            "views": 51200,
+            "likes": 3890,
+            "createdAt": "2026-01-07T14:45:00Z",
+            "products": [
+                {
+                    "id": "prod_18",
+                    "name": "PowerBlend 3000",
+                    "brand": "BlendMaster",
+                    "price": 149.99,
+                    "originalPrice": 199.99,
+                    "currency": "USD",
+                    "imageUrl": "https://picsum.photos/300/300?random=118",
+                    "rating": 4.8,
+                    "reviewCount": 1123,
+                    "inStock": true,
+                    "category": "Home & Kitchen",
+                    "description": "High-powered blender with 1500W motor.",
+                    "specifications": ["1500W motor", "10 speed settings", "64 oz pitcher"]
+                }
+            ]
+        },
+        {
+            "id": "video_33",
+            "title": "Phone Accessories You Need",
+            "description": "Top 5 must-have accessories for your smartphone",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "thumbnailUrl": "https://picsum.photos/400/600?random=15",
+            "duration": 46,
+            "views": 68400,
+            "likes": 5230,
+            "createdAt": "2026-01-06T16:00:00Z",
+            "products": [
+                {
+                    "id": "prod_19",
+                    "name": "Wireless Charging Pad",
+                    "brand": "ChargeFast",
+                    "price": 29.99,
+                    "currency": "USD",
+                    "imageUrl": "https://picsum.photos/300/300?random=119",
+                    "rating": 4.5,
+                    "reviewCount": 789,
+                    "inStock": true,
+                    "category": "Electronics",
+                    "description": "Fast wireless charging pad compatible with all Qi-enabled devices.",
+                    "specifications": ["15W fast charging", "Qi-certified", "LED indicator"]
+                },
+                {
+                    "id": "prod_34",
+                    "name": "Screen Protector Kit",
+                    "brand": "GuardTech",
+                    "price": 19.99,
+                    "currency": "USD",
+                    "imageUrl": "https://picsum.photos/300/300?random=120",
+                    "rating": 4.4,
+                    "reviewCount": 1234,
+                    "inStock": true,
+                    "category": "Electronics",
+                    "description": "Tempered glass screen protector with easy installation kit.",
+                    "specifications": ["9H hardness", "Anti-fingerprint", "2-pack included"]
+                }
+            ]
+        },
+        {
+            "id": "video_34",
+            "title": "Winter Jacket Collection",
+            "description": "Stay warm and stylish this winter",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "thumbnailUrl": "https://picsum.photos/400/600?random=16",
+            "duration": 41,
+            "views": 39800,
+            "likes": 3120,
+            "createdAt": "2026-01-05T10:30:00Z",
+            "products": [
+                {
+                    "id": "prod_21",
+                    "name": "Insulated Puffer Jacket",
+                    "brand": "WarmWear",
+                    "price": 129.99,
+                    "originalPrice": 179.99,
+                    "currency": "USD",
+                    "imageUrl": "https://picsum.photos/300/300?random=121",
+                    "rating": 4.6,
+                    "reviewCount": 567,
+                    "inStock": true,
+                    "category": "Fashion",
+                    "description": "Lightweight yet warm puffer jacket.",
+                    "specifications": ["Water-resistant", "Insulated filling", "Multiple pockets"]
+                }
+            ]
+        },
+        {
+            "id": "video_35",
+            "title": "Portable Speaker Comparison",
+            "description": "Best Bluetooth speakers for outdoor use",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "thumbnailUrl": "https://picsum.photos/400/600?random=17",
+            "duration": 49,
+            "views": 44600,
+            "likes": 3450,
+            "createdAt": "2026-01-04T13:20:00Z",
+            "products": [
+                {
+                    "id": "prod_22",
+                    "name": "WaterProof Bluetooth Speaker",
+                    "brand": "SoundWave",
+                    "price": 79.99,
+                    "currency": "USD",
+                    "imageUrl": "https://picsum.photos/300/300?random=122",
+                    "rating": 4.7,
+                    "reviewCount": 892,
+                    "inStock": true,
+                    "category": "Electronics",
+                    "description": "Rugged waterproof speaker with 20-hour battery life.",
+                    "specifications": ["IPX7 waterproof", "20-hour battery", "360-degree sound"]
+                }
+            ]
+        },
+        {
+            "id": "video_36",
+            "title": "Tablet vs Laptop: Which to Buy?",
+            "description": "Helping you decide between a tablet and laptop",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "thumbnailUrl": "https://picsum.photos/400/600?random=18",
+            "duration": 53,
+            "views": 62300,
+            "likes": 4890,
+            "createdAt": "2026-01-03T09:30:00Z",
+            "products": [
+                {
+                    "id": "prod_23",
+                    "name": "Pro Tablet 12.9\"",
+                    "brand": "TechTab",
+                    "price": 799.99,
+                    "currency": "USD",
+                    "imageUrl": "https://picsum.photos/300/300?random=123",
+                    "rating": 4.8,
+                    "reviewCount": 1567,
+                    "inStock": true,
+                    "category": "Electronics",
+                    "description": "Professional-grade tablet with stunning display and powerful performance.",
+                    "specifications": ["12.9\" display", "256GB storage", "8GB RAM", "All-day battery"]
+                }
+            ]
+        }
+        
+    ]
+}
