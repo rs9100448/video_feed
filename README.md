@@ -249,11 +249,6 @@ Video_Feed/
 - **Automatic Cleanup**: Periodic cleanup of old/unused cache entries
 - **Cache Statistics**: Real-time cache usage monitoring
 
-### 6. Viewing History
-- **Automatic Tracking**: Records all viewed videos
-- **Quick Access**: Easy recall of recently watched content
-- **SwiftData Integration**: Persistent history across app launches
-
 ---
 
 ## 🛠️ Technology Stack
