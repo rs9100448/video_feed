@@ -9,7 +9,6 @@
 - [Design Decisions](#design-decisions)
 - [Project Structure](#project-structure)
 - [Setup & Installation](#setup--installation)
-- [Testing Strategy](#testing-strategy)
 - [Performance Optimizations](#performance-optimizations)
 - [Future Enhancements](#future-enhancements)
 
