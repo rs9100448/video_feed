@@ -10,34 +10,45 @@ import SwiftData
 
 // MARK: - Interactor Protocol
 protocol FavouriteInteractorProtocol: Sendable {
+    func fetchFavouriteVideos() async throws -> [FavouriteVideo]
     // Future methods can be added here
 }
 
 // MARK: - Interactor Implementation
 final class FavouriteInteractor: FavouriteInteractorProtocol {
+    
     private let dataManager: DataManagerProtocol
     
     init(dataManager: DataManagerProtocol) {
         self.dataManager = dataManager
     }
     
-    // Add future business logic methods here
+    func fetchFavouriteVideos() async throws -> [FavouriteVideo] {
+        try await self.dataManager.fetchFavouriteVideos()
+    }
+    
 }
 
 // MARK: - Data Manager Protocol (for dependency injection and testing)
 protocol DataManagerProtocol: Sendable {
-    // Future methods can be added here
+    func fetchFavouriteVideos() async throws -> [FavouriteVideo]
 }
 
 // MARK: - SwiftData Manager Implementation
 final class SwiftDataManager: DataManagerProtocol {
-    private let modelContainer: ModelContainer
     
-    init(modelContainer: ModelContainer) {
-        self.modelContainer = modelContainer
+    private let modelContext: ModelContext
+    
+    func fetchFavouriteVideos() async throws -> [FavouriteVideo] {
+        let descriptor = FetchDescriptor<FavouriteVideo>()
+        let video = try modelContext.fetch(descriptor)
+        return video
+        
     }
-    
-    // Add future data operations here
+
+    init(modelContext: ModelContext) {
+        self.modelContext = modelContext
+    }
 }
 
 

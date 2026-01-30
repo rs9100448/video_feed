@@ -34,11 +34,11 @@ final class FavouriteRouter: FavouriteRouterProtocol {
     
     // MARK: - Static Module Builder
     static func createModule(
-        modelContainer: ModelContainer,
+        modelContext: ModelContext,
         navigationCoordinator: NavigationCoordinator? = nil
     ) -> FavouriteView {
         
-        let dataManager = SwiftDataManager(modelContainer: modelContainer)
+        let dataManager = SwiftDataManager(modelContext: modelContext)
         let interactor = FavouriteInteractor(dataManager: dataManager)
         let presenter = FavouritePresenter()
         let router = FavouriteRouter(navigationCoordinator: navigationCoordinator)

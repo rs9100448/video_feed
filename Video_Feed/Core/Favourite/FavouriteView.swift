@@ -15,21 +15,20 @@ protocol FavouriteViewProtocol: AnyObject {
 }
 
 struct FavouriteView: View {
-    @Query private var favouriteVideo: [FavouriteVideo]
-    @StateObject private var viewModel: FavouriteViewModel
-    
+    let favouritePresenter: FavouritePresenterProtocol
+    @State private var favouriteVideos: [FavouriteVideo] = []
     init(presenter: FavouritePresenterProtocol) {
-        _viewModel = StateObject(wrappedValue: FavouriteViewModel(presenter: presenter))
+        self.favouritePresenter = presenter
     }
     
     var body: some View {
         NavigationStack {
             Group {
-                if favouriteVideo.isEmpty {
+                if $favouriteVideos.isEmpty {
                     emptyStateView
                 } else {
                     ScrollView {
-                        PostGridView(favourites: favouriteVideo)
+                        PostGridView(favourites: favouriteVideos)
                             .padding(.top, 20)
                             .padding(.bottom, 40)
                     }
@@ -38,7 +37,9 @@ struct FavouriteView: View {
             .navigationTitle("Favourites")
         }
         .onAppear {
-            viewModel.onAppear()
+            Task {
+                favouriteVideos = try await favouritePresenter.fetchFavouriteVideos()
+            }
         }
     }
     
@@ -53,25 +54,5 @@ struct FavouriteView: View {
                 .foregroundColor(.secondary)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-    }
-}
-
-
-@MainActor
-final class FavouriteViewModel: ObservableObject, FavouriteViewProtocol {
-    private let presenter: FavouritePresenterProtocol
-    
-    init(presenter: FavouritePresenterProtocol) {
-        self.presenter = presenter
-        
-    }
-    
-    // MARK: - User Actions
-    func onAppear() {
-        presenter.viewDidAppear()
-    }
-    
-    func videoTapped(_ video: FavouriteVideo) {
-        presenter.didSelectVideo(video)
     }
 }

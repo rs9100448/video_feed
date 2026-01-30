@@ -26,7 +26,8 @@ struct MainTabView: View {
                     selectedTab = 0
                 }
                 .tag(0)
-            let presenter: FavouritePresenterProtocol = FavouritePresenter()
+            let interector = FavouriteInteractor(dataManager: SwiftDataManager(modelContext: context))
+            let presenter: FavouritePresenterProtocol = FavouritePresenter(interactor: interector)
             FavouriteView(presenter: presenter)
                 .tabItem {
                     VStack {

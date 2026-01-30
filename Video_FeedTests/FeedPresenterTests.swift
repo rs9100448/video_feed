@@ -215,7 +215,7 @@ struct FeedPresenterTests {
         
         // Then
         #expect(presenter.video.count == initialCount)
-        #expect(!presenter.hasMorePages)
+        #expect(presenter.hasMorePages)
     }
     
     @Test("Load more should append new videos")

@@ -7,6 +7,7 @@
 
 import SwiftUI
 import AVKit
+import Kingfisher
 
 struct FeedCell: View {
     let video: FavouriteVideo
@@ -74,9 +75,11 @@ struct UserActionOptionalView: View {
     let navigateToProductDetail: () -> AnyView
     var body: some View {
         VStack(spacing: 40){
-            Circle()
-                .frame(width: 48, height: 48)
-                .foregroundColor(.gray)
+            KFImage(URL(string: video.thumbnailURL))
+                .resizable()
+                .clipShape(Circle())
+                .scaledToFit()
+                .frame(width: 60, height: 60)
             Button(action: {
                 video.isFavourite.toggle()
             }) {
