@@ -41,8 +41,7 @@ struct FeedCell: View {
                     .shadow(color: .black.opacity(0.1), radius: 10, x: 0, y: 5)
                     
                     Spacer()
-                    
-                    UserActionOptionalView(video: video, showModal: $showModal, navigateToProductDetail: navigateToProductDetail)
+                    UserActionOptionalView(video: video, player: player, showModal: $showModal, navigateToProductDetail: navigateToProductDetail)
                         .foregroundColor(.white)
                 }
                 .shadow(color: .black.opacity(0.3), radius: 10, x: 0, y: 5)
@@ -71,6 +70,7 @@ struct FeedCell: View {
 
 struct UserActionOptionalView: View {
     let video: FavouriteVideo
+    var player: AVPlayer
     @Binding var showModal: Bool
     let navigateToProductDetail: () -> AnyView
     var body: some View {
@@ -101,6 +101,7 @@ struct UserActionOptionalView: View {
                         Spacer()
                         Button(action: {
                             showModal = false
+                            player.play()
                         }) {
                             Image(systemName: "xmark.circle.fill")
                                 .font(.title)
@@ -109,6 +110,9 @@ struct UserActionOptionalView: View {
                         .padding()
                     }
                     navigateToProductDetail()
+                        .onAppear() {
+                            player.pause()
+                        }
                 }
             })
             

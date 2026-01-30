@@ -29,6 +29,9 @@ struct FeedView: View {
                 }
         case .sucess:
             showVideoView()
+                .onDisappear {
+                    player.pause()
+                }
         case .error:
             showErrorView()
         }
