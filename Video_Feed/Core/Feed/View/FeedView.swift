@@ -90,6 +90,7 @@ struct FeedView: View {
             }
             .scrollTargetLayout()
         }
+        .scrollIndicators(.hidden)
         .onAppear {
             player.play()
         }
