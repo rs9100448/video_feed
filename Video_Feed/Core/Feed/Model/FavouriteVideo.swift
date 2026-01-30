@@ -34,12 +34,12 @@ class FavouriteVideo: @unchecked Sendable {
 extension FavouriteVideo {
     convenience init(_ video: VideoEntity) {
         self.init(id: video.id,
-             videoURL: video.videoURL,
-             thumbnailURL: video.thumbnailURL,
-             duration: video.duration,
-             title: video.title,
-             desc: video.description,
-             products: video.products,
-             isFavourite: false)
+                  videoURL: video.videoURL,
+                  thumbnailURL: video.thumbnailURL,
+                  duration: video.duration,
+                  title: video.title,
+                  desc: video.description,
+                  products: video.products,
+                  isFavourite: false)
     }
 }

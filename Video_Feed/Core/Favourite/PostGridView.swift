@@ -15,7 +15,7 @@ struct PostGridView: View {
         GridItem(.flexible(), spacing: 1),
         GridItem(.flexible()),
     ]
-
+    
     var body: some View {
         LazyVGrid(columns: columns, spacing: 2) {
             ForEach(favourites) { fav in
@@ -29,7 +29,7 @@ struct PostGridView: View {
                             .aspectRatio(9/16, contentMode: .fill)
                             .frame(width: width, height: height)
                             .clipped()
-                       
+                        
                         HStack {
                             Text(fav.title)
                                 .font(.caption)
@@ -49,17 +49,3 @@ struct PostGridView: View {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

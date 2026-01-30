@@ -22,7 +22,9 @@ struct FeedView: View {
                     do {
                         try await presenter.fetchData()
                     }catch {
+#if DEBUG
                         print("Error fetching data: \(error)")
+#endif
                     }
                 }
         case .sucess:
@@ -128,7 +130,7 @@ struct FeedView: View {
     
     // MARK: - Pagination Logic
     func loadMoreIfNeeded(currentIndex: Int) {
-        let threshold = 2 // Load more when 2 videos from the end
+        let threshold = 2 
         
         if currentIndex >= presenter.video.count - threshold {
             Task {

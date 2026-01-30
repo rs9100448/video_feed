@@ -21,7 +21,7 @@ struct FavouriteView: View {
     init(presenter: FavouritePresenterProtocol) {
         _viewModel = StateObject(wrappedValue: FavouriteViewModel(presenter: presenter))
     }
-
+    
     var body: some View {
         NavigationStack {
             Group {
@@ -47,7 +47,7 @@ struct FavouriteView: View {
             Image(systemName: "heart.slash")
                 .font(.system(size: 48))
                 .foregroundColor(.secondary)
-
+            
             Text("No favourites yet")
                 .font(.largeTitle)
                 .foregroundColor(.secondary)
@@ -75,13 +75,3 @@ final class FavouriteViewModel: ObservableObject, FavouriteViewProtocol {
         presenter.didSelectVideo(video)
     }
 }
-
-
-
-
-
-
-
-
-
-

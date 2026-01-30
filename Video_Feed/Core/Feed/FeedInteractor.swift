@@ -10,7 +10,7 @@ import Combine
 import SwiftData
 
 class FeedInteractor: FeedInteractorProtocol, ObservableObject {
-
+    
     @Published var model: FeedViewModel
     private let modelContext: ModelContext
     var repository: DataLayerRepo
@@ -101,35 +101,30 @@ class FeedInteractor: FeedInteractorProtocol, ObservableObject {
             for index in startIndex..<endIndex {
                 let video = videos[index]
                 guard let videoURL = URL(string: video.videoURL) else {
-                    print("⚠️ Invalid URL for video at index \(index)")
                     continue
                 }
                 
                 // Check if already cached
                 let isCached = await self.repository.isVideoCached(url: videoURL)
                 if isCached {
-                    print("✅ Video \(index) already cached: \(videoURL.lastPathComponent)")
                     continue
                 }
                 
-                // Cache the video
-                print("⬇️ Prefetching video \(index): \(videoURL.lastPathComponent)")
                 do {
                     try await self.repository.cacheVideo(url: videoURL)
-                    print("✅ Successfully cached video \(index)")
                 } catch {
+#if DEBUG
                     print("❌ Failed to cache video \(index): \(error.localizedDescription)")
+#endif
                 }
             }
         }
     }
     
     private func transformVideoToFavourite(videos: [VideoEntity]) async throws -> [FavouriteVideo] {
-        // Fetch all favourites once instead of per video
         let allFavourites = try fetchAllFavourites()
         let favouritesDict = Dictionary(uniqueKeysWithValues: allFavourites.map { ($0.id, $0) })
         
-        // Map videos with O(1) lookup
         return videos.map { video in
             let favVideo = FavouriteVideo(video)
             if let _ = favouritesDict[favVideo.id] {
@@ -138,13 +133,12 @@ class FeedInteractor: FeedInteractorProtocol, ObservableObject {
             return favVideo
         }
     }
-
-    // Add this helper method to fetch all favourites at once
+    
     private func fetchAllFavourites() throws -> [FavouriteVideo] {
         let descriptor = FetchDescriptor<FavouriteVideo>()
         return try modelContext.fetch(descriptor)
     }
-
+    
     
     func markAsFavourite(video: FavouriteVideo) async throws {
         let videoId = video.id
@@ -161,6 +155,6 @@ class FeedInteractor: FeedInteractorProtocol, ObservableObject {
         }else {
             modelContext.insert(video)
         }
-
+        
     }
 }

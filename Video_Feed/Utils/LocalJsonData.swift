@@ -17,9 +17,7 @@ protocol DataLayerRepo {
 
 final class LocalJsonData: DataLayerRepo {
     
-    // Fetch video metadata (JSON)
     func fetchVideos(page: Int) async throws -> [VideoEntity] {
-        // Load from local JSON
         guard let url = Bundle.main.url(forResource: "videos_feed", withExtension: "json"),
               let data = try? Data(contentsOf: url) else {
             throw ApiError.noData
@@ -49,31 +47,20 @@ final class LocalJsonData: DataLayerRepo {
         return videos
     }
     
-    // ✅ NEW: Cache a video file
     func cacheVideo(url: URL) async throws {
-        // Check if already cached
         if await VideoCache.shared.isCached(url) {
-            print("📦 Video already cached: \(url.lastPathComponent)")
             return
         }
-        
-        print("⬇️ Downloading: \(url.lastPathComponent)")
-        
-        // Download video
+                
         let (data, _) = try await URLSession.shared.data(from: url)
         
-        // Save to cache
         try await VideoCache.shared.save(data: data, for: url)
-        
-        print("✅ Cached: \(url.lastPathComponent)")
     }
     
-    // ✅ NEW: Check if video is cached
     func isVideoCached(url: URL) async -> Bool {
         await VideoCache.shared.isCached(url)
     }
     
-    // ✅ NEW: Get cached video URL for playback
     func getCachedVideoURL(url: URL) async -> URL? {
         if await VideoCache.shared.isCached(url) {
             return await VideoCache.shared.cacheURL(for: url)

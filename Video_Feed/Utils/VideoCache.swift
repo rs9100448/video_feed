@@ -125,8 +125,6 @@ actor VideoCache {
         )
         metadata[url.absoluteString] = meta
         saveMetadata()
-        
-        print("✅ Cached: \(url.lastPathComponent) (\(ByteCountFormatter.string(fromByteCount: Int64(data.count), countStyle: .file)))")
     }
     
     func getCachedData(for url: URL) async throws -> Data {
@@ -134,7 +132,7 @@ actor VideoCache {
         
         // Update access metadata
         if var meta = metadata[url.absoluteString] {
-            meta.recordAccess()
+            await meta.recordAccess()
             metadata[url.absoluteString] = meta
             saveMetadata()
         }
@@ -147,7 +145,6 @@ actor VideoCache {
         try fileManager.removeItem(at: cacheURL)
         metadata.removeValue(forKey: url.absoluteString)
         saveMetadata()
-        print("🗑️ Deleted cache: \(url.lastPathComponent)")
     }
     
     // MARK: - Cache Size Management
@@ -196,8 +193,6 @@ actor VideoCache {
         
         metadata.removeAll()
         saveMetadata()
-        
-        print("🗑️ Cache cleared completely")
     }
     
     func cleanOldCache() async throws {
@@ -216,7 +211,6 @@ actor VideoCache {
         }
         
         if deletedCount > 0 {
-            print("🗑️ Cleaned \(deletedCount) old files, freed \(ByteCountFormatter.string(fromByteCount: freedBytes, countStyle: .file))")
         }
     }
     
@@ -234,8 +228,6 @@ actor VideoCache {
                 freedBytes += meta.fileSize
             }
         }
-        
-        print("🗑️ Evicted LRU cache, freed \(ByteCountFormatter.string(fromByteCount: freedBytes, countStyle: .file))")
     }
     
     func deleteUnusedCache(maxAccessCount: Int = 1) async throws {
@@ -253,14 +245,15 @@ actor VideoCache {
         }
         
         if deletedCount > 0 {
+#if DEBUG
             print("🗑️ Deleted \(deletedCount) unused files, freed \(ByteCountFormatter.string(fromByteCount: freedBytes, countStyle: .file))")
+#endif
         }
     }
     
     // MARK: - Automatic Cleanup
     
     func performAutomaticCleanup() async throws {
-        print("🔄 Starting automatic cleanup...")
         
         // 1. Remove old files
         try await cleanOldCache()
@@ -272,7 +265,6 @@ actor VideoCache {
             try await evictLRUCache(toFreeBytes: excessBytes)
         }
         
-        print("✅ Automatic cleanup completed")
     }
     
     // MARK: - Metadata Management

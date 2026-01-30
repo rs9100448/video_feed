@@ -29,7 +29,7 @@ final class FavouriteRouter: FavouriteRouterProtocol {
     
     func navigateToVideoDetail(video: FavouriteVideo) {
         navigationCoordinator?.navigateToVideoDetail(video: video)
-        print("📹 Navigating to video: \(video.title)")
+
     }
     
     // MARK: - Static Module Builder
@@ -37,7 +37,7 @@ final class FavouriteRouter: FavouriteRouterProtocol {
         modelContainer: ModelContainer,
         navigationCoordinator: NavigationCoordinator? = nil
     ) -> FavouriteView {
-        // Create VIPER components
+        
         let dataManager = SwiftDataManager(modelContainer: modelContainer)
         let interactor = FavouriteInteractor(dataManager: dataManager)
         let presenter = FavouritePresenter()

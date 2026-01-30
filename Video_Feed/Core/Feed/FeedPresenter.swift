@@ -10,7 +10,7 @@ import Combine
 import AVKit
 
 final class FeedPresenter: FeedPresenterProtocol, ObservableObject {
-   
+    
     var router: FeedListRouter = FeedListRouter()
     var interactor: FeedInteractorProtocol
     @Published var moviePresenterState: VideoPresenterStateEnum = .empty
@@ -51,13 +51,13 @@ final class FeedPresenter: FeedPresenterProtocol, ObservableObject {
             let previousCount = video.count
             try await self.interactor.loadMoreData()
             
-            // Check if new videos were added
-            if video.count == previousCount {
-                // No new videos, reached end
+            if video.count != previousCount {
                 hasMorePages = false
             }
         } catch {
+#if DEBUG
             print("Error loading more: \(error)")
+#endif
         }
         
         isLoadingMore = false
@@ -93,7 +93,6 @@ final class FeedPresenter: FeedPresenterProtocol, ObservableObject {
                 }
                 return
             }
-            print("Cache URL:",cacheURL)
             getCache(cacheURL)
         }
     }

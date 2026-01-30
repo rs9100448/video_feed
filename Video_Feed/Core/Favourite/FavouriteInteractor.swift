@@ -11,7 +11,6 @@ import SwiftData
 // MARK: - Interactor Protocol
 protocol FavouriteInteractorProtocol: Sendable {
     // Future methods can be added here
-    // Example: func performAnalytics() async
 }
 
 // MARK: - Interactor Implementation

@@ -23,11 +23,9 @@ final class FavouritePresenter: FavouritePresenterProtocol {
     // MARK: - Presenter Protocol Methods
     func viewDidAppear() {
         // Analytics or tracking can be added here
-        print("📱 Favourite view appeared")
     }
     
     func didSelectVideo(_ video: FavouriteVideo) {
-        // Navigate to video detail
         router?.navigateToVideoDetail(video: video)
     }
 }

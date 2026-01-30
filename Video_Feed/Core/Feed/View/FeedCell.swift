@@ -38,11 +38,11 @@ struct FeedCell: View {
                     .foregroundStyle(.white)
                     .font(.subheadline)
                     .shadow(color: .black.opacity(0.1), radius: 10, x: 0, y: 5)
-
+                    
                     Spacer()
                     
                     UserActionOptionalView(video: video, showModal: $showModal, navigateToProductDetail: navigateToProductDetail)
-                    .foregroundColor(.white)
+                        .foregroundColor(.white)
                 }
                 .shadow(color: .black.opacity(0.3), radius: 10, x: 0, y: 5)
                 .padding(.bottom, 80)
@@ -112,7 +112,3 @@ struct UserActionOptionalView: View {
         }
     }
 }
-
-//#Preview {
-//    FeedCell(post: Feed(id: UUID().uuidString, videoURL: ""), player: AVPlayer())
-//}

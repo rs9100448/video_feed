@@ -32,7 +32,7 @@ struct MainTabView: View {
                     VStack {
                         Image(systemName: selectedTab == 1 ? "heart.fill" :"heart")
                             .environment(\.symbolVariants, selectedTab == 1 ? .fill : .none)
-                        Text("History")
+                        Text("Favourites")
                     }
                 }
                 .onAppear {
@@ -41,8 +41,6 @@ struct MainTabView: View {
                 .tag(1)
         }
         .tint(.black)
-
-        
     }
 }
 

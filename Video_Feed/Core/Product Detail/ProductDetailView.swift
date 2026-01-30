@@ -10,7 +10,7 @@ import Kingfisher
 
 // MARK: - Main Product Details View
 protocol ProductDetailViewProtocol: AnyObject {
-    //Future 
+    // Add future methods here
 }
 struct ProductDetailsView: View {
     
@@ -33,10 +33,8 @@ struct ProductDetailsView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
-                // Video Header
                 VideoHeaderView(videoData: videoData)
                 
-                // Product Selector Tabs
                 if videoData.products.count > 1 {
                     ProductSelectorView(
                         products: videoData.products,
@@ -44,10 +42,8 @@ struct ProductDetailsView: View {
                     )
                 }
                 
-                // Product Details Content
                 VStack(alignment: .leading, spacing: 20) {
                     ProductImageView(imageUrl: selectedProduct.imageURL)
-                    
                     ProductInfoSection(
                         product: selectedProduct,
                         quantity: $quantity,
